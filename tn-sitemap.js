@@ -14,7 +14,7 @@ var tocLoaded=false;
 var numChars=250;
 var postFilter="";
 var numberfeed=0;
-var month2=["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
+var month2=["Janeiro de ","Fevereiro de ","MarÃ§o de ","Abril de ","Maio de ","Junho de ","Julho de ","Agosto de ","Setembro de ","Outubro de ","Novembro de ","Dezembro de "];
 function loadtoc(a)
 {function b()
 {if("entry" in a.feed)
@@ -53,7 +53,7 @@ postYearMonth2.push(c);
 postTanggal.push(g)}}}
 b();
 displayToc2();
-document.write('<br/><a href="http://www.portaltelenoticias.com" style="font-size: 9px; text-decoration:none; color: #616469;">Portal Telenotícias</a></br/>')}
+document.write('<br/><a href="http://www.portaltelenoticias.com" style="font-size: 9px; text-decoration:none; color: #616469;">Portal Telenoticias</a></br/>')}
 function displayToc2()
 {var a=0;
 var b=0;
