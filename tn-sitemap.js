@@ -14,7 +14,7 @@ var tocLoaded=false;
 var numChars=250;
 var postFilter="";
 var numberfeed=0;
-var month2=["Janeiro de ","Fevereiro de ","Março de ","Abril de ","Maio de ","Junho de ","Julho de ","Agosto de ","Setembro de ","Outubro de ","Novembro de ","Dezembro de "];
+var month2=["Janeiro de","Fevereiro de","Março de","Abril de","Maio de","Junho de","Julho de","Agosto de","Setembro de","Outubro de","Novembro de","Dezembro de"];
 function loadtoc(a)
 {function b()
 {if("entry" in a.feed)
